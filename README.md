@@ -1,5 +1,8 @@
 # Abalone Health Investigation Report
 
+This report will focus on the steps taken to build and complete appropriate models on the health of the Abalone populations within the seas surrounding the West coast of Australia. This is so the relative comparative investigation can be used to determine the health of the Abalone’s population, within the geographical area, for Males (M), Female (F) and Infants (I) based upon differing variables.
+
+## Data Preparation 
 
 ##### Figure 1.1 - exploring the datasets
 
@@ -7,7 +10,7 @@ The two datasets for the Abalone populations (2020 and 2021) used in the investi
 weight of the abalone meat without its shell, sell weight (g) which represents the weight of the abalone's shell and spots which represents the number of spots or rings on the abalone
 shell.
 
-## Summary Statistics
+### Summary Statistics
 
 ##### Figure 1.2 - Info() on datasets
 
@@ -21,7 +24,7 @@ The datasets were further explored using describe() and info() methods and then 
 
 The above helped to reveal any oddities in the data as seen with the sex column having an extra category or the greater range of data in the height column within the 2020 dataset.
 
-## Handling Missing Data
+### Handling Missing Data
 
 ##### Figure 1.6 - counting null values and dropping them
 
