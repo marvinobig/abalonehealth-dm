@@ -20,3 +20,17 @@ The datasets were further explored using describe() and info() methods and then 
 ##### Figure 1.5 - bar chart plot used on the gender column
 
 The above helped to reveal any oddities in the data as seen with the sex column having an extra category or the greater range of data in the height column within the 2020 dataset.
+
+## Handling Missing Data
+
+##### Figure 1.6 - counting null values and dropping them
+
+##### Figure 1.7 - removing extra category from sex column
+
+##### Figure 1.8 - rounding values in spots column within both datasets
+
+Zeros in the datasets were replaced with NaN, rows with missing values were dropped as they were few in number, and the extra category in the sex column was removed. This process was carried out on both datasets. The spots column in the datasets had values that needed to be converted to whole numbers so they were rounded.Outliers
+
+##### Figure 1.9 - outlier detection and removal using z-score method
+
+The number of outliers were counted to determine if it was better to remove or to retain them. These outliers were few in number compared to the number of rows so it was decided that they were best removed. The outliers were removed using the z-score method.
