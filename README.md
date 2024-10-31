@@ -37,3 +37,23 @@ Zeros in the datasets were replaced with NaN, rows with missing values were drop
 ##### Figure 1.9 - outlier detection and removal using z-score method
 
 The number of outliers were counted to determine if it was better to remove or to retain them. These outliers were few in number compared to the number of rows so it was decided that they were best removed. The outliers were removed using the z-score method.
+
+### Descriptive Statistics on Cleaned Data
+
+##### Figure 1.10 - describe() on both datasets
+
+##### Figure 1.11 - histogram on numerical columns
+
+##### Figure 1.13 - bar chart on corrected sex column
+
+The same descriptive statistics methods and plots were used to visualize the cleaned data.
+
+### Label Encoding
+
+##### Figure 1.14 - label encoding the sex column
+
+To allow for the models used in this investigation to work with all columns in the datasets, it was determined that it was best to encode the sex column. The categorical sex column values were encoded to numeric values (Male: 1, Female: 2, Infant: 3).
+
+##### Figure 1.15 & 1.16 - distribution by sex
+
+The features were visualized using a box plot to demonstrate their distribution by sex. This shows that on average, the female population is bigger across both datasets.
