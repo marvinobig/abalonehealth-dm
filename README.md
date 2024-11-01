@@ -57,3 +57,8 @@ To allow for the models used in this investigation to work with all columns in t
 ##### Figure 1.15 & 1.16 - distribution by sex
 
 The features were visualized using a box plot to demonstrate their distribution by sex. This shows that on average, the female population is bigger across both datasets.
+
+## Methodology
+The models used in this investigation are k-means as it is able to create groups within data that have similarities, logistic regression for its simplicity and effectiveness in binary classification problems (healthy vs. unhealthy), and random forest’s ability to handle both categorical and numerical variables while minimizing overfitting.
+
+### Feature Correlation
