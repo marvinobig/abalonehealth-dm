@@ -62,3 +62,14 @@ The features were visualized using a box plot to demonstrate their distribution 
 The models used in this investigation are k-means as it is able to create groups within data that have similarities, logistic regression for its simplicity and effectiveness in binary classification problems (healthy vs. unhealthy), and random forest’s ability to handle both categorical and numerical variables while minimizing overfitting.
 
 ### Feature Correlation
+
+##### Figure 2.1 - correlation matrix on both datasets
+
+##### Figure 2.2 - dropping redundant features
+
+To gauge which columns to use in determining health, a correlation matrix is used to check for redundant columns that can be removed without any negative effects on the models. Based on the results of the correlation matrix, shucked weight(g) and sell weight(g) was
+removed as it is highly correlated with whole weight(g). Diameter(mm) was removed due to its high correlation with the length(mm) and height(mm) features.
+
+### Training Models
+
+Length(mm) and whole weight(g) will be used as features to train the clustering model (k-means) while sex, height(mm), and spots will be used as features in the classification models (logistic regression and random forest) data.
