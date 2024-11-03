@@ -73,3 +73,11 @@ removed as it is highly correlated with whole weight(g). Diameter(mm) was remove
 ### Training Models
 
 Length(mm) and whole weight(g) will be used as features to train the clustering model (k-means) while sex, height(mm), and spots will be used as features in the classification models (logistic regression and random forest) data.
+
+##### Figure 2.3 - selecting features for clustering model
+
+The above in figure 2.3 was repeated for the 2021 dataset
+
+##### Figure 2.4 - splitting & scaling data for model (logistic regression and random forest) training and evaluation
+
+The dataset used for classification was split into training and testing sets (70/30 split) to train and then test model performance.
