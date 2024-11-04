@@ -81,3 +81,9 @@ The above in figure 2.3 was repeated for the 2021 dataset
 ##### Figure 2.4 - splitting & scaling data for model (logistic regression and random forest) training and evaluation
 
 The dataset used for classification was split into training and testing sets (70/30 split) to train and then test model performance.
+
+##### Figure 2.5 - function to make training and evaluating the classification algorithms easier
+
+The function shown in figure 2.5 was created to reduce repeated code and is used to make training and evaluating classification algorithms much easier with the confusion matrix, accuracy and classification report.
+
+## Results
