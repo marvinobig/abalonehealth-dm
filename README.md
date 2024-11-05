@@ -101,3 +101,18 @@ The same code was repeated for the 2021 dataset.Random Forest
 ##### Figure 3.3 - random forest performance
 
 The same code was repeated for the 2021 dataset.
+
+## Conclusion
+
+PCA as shown in figure 3.1 visualizes the clusters created by the KMeans clustering
+algorithm. The PCA (principal component analysis) projection shows the clusters are well separated as the two groups are not overlapping. It suggests that the clustering is meaningful and captures important similarities in the data. The silhouette score also demonstrates the performance of KMeans clustering as the closer the number is to one the better the model. A score of 0.58 suggests the model is good at creating clusters.
+
+The cluster labels created were used to train the classification models (logistic regression and random forest). The results of the training revealed that random forest was better at predicting future cluster labels as it had an accuracy score of 0.88 while logistic regression had 0.78. The classification report also had better numbers for random forest and as shown by the confusion matrix for both, random forest
+had less false positives overall.
+
+Length and weight was used to train the clustering model as it has been shown that the
+relationship between length and weight can be used to assess the health of marine life (Li et al, 2023, introduction section). This relationship can be used to determine the health of marine life in different aquatic environments (Basak and Hadiuzzaman, 2019, introduction
+section). 
+
+Features that correlated highly with weight and length were removed, simplifying
+the data. As revealed by the descriptive statistics performed on the datasets that are grouped by their cluster labels, the first cluster (1) had more females in the population and more abalone that tended to be heavier and taller. They also had a greater number of spots. This would seem to indicate that this cluster was healthier overall.
