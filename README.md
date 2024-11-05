@@ -87,3 +87,17 @@ The dataset used for classification was split into training and testing sets (70
 The function shown in figure 2.5 was created to reduce repeated code and is used to make training and evaluating classification algorithms much easier with the confusion matrix, accuracy and classification report.
 
 ## Results
+
+### KMeans
+
+##### Figure 3.1 - KMeans clustering implementation
+
+This code was repeated for the 2021 dataset.Logistic Regression
+
+##### Figure 3.2 - logistic regression performance
+
+The same code was repeated for the 2021 dataset.Random Forest
+
+##### Figure 3.3 - random forest performance
+
+The same code was repeated for the 2021 dataset.
