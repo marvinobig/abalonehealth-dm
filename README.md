@@ -116,3 +116,21 @@ section).
 
 Features that correlated highly with weight and length were removed, simplifying
 the data. As revealed by the descriptive statistics performed on the datasets that are grouped by their cluster labels, the first cluster (1) had more females in the population and more abalone that tended to be heavier and taller. They also had a greater number of spots. This would seem to indicate that this cluster was healthier overall.
+
+## References
+
+- Basak, S.S. and Hadiuzzaman, M., 2019. Length-weight relationship
+(LWR), condition factor (K) and relative condition factor (KN) of Kalibaus
+fish Labeo calbasu (Hamilton, 1822) of Kaptai Lake, Rangamati, Bangladesh. Group,
+30(52), p.1148.
+- Li, Y., Feng, M., Huang, L., Zhang, P., Wang, H., Zhang, J., Tian, Y. and Xu, J. (2023) Weight–Length Relationship Analysis Revealing the Impacts of Multiple Factors on Body Shape of Fish in China, MDPI. Multidisciplinary Digital Publishing Institute.
+Available at: https://www.mdpi.com/2410-3888/8/5/269 (Accessed: 12 October
+2024).
+- Wasnik, A. (2020) How to Plot K-Means Clusters with Python?, AskPython. Available
+at: https://www.askpython.com/python/examples/plot-k-means-clusters-python
+(Accessed: 12 October 2024).
+- Yadav, A. (2023) How to Determine Outliers in Python, AskPython. Available at:
+https://www.askpython.com/python/examples/how-to-determine-outliers
+(Accessed: 12 October 2024).
+- Ankita (2024) K-Means: Getting the Optimal Number of Clusters, Analytics Vidhya.
+Available at: https://www.analyticsvidhya.com/blog/2021/05/k-mean-getting-the-optimal-number-of-clusters/ (Accessed: 12 October 2024).
